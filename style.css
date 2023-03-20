@@ -35,3 +35,19 @@ main.container {
   background-image: url('./mole.png');
   background-size: cover;
 }
+
+.start-game {
+  color: #fff;
+  background-color: #684507;
+  padding: 1rem 4rem;
+  border-radius: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.start-game:hover {
+  color: #684507;
+  background-color: #fff;
+  border: 1px solid #684507;
+}
