@@ -1,1 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+main.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #000;
+}
+
+.score,
+.time {
+  margin-bottom: 1.5rem;
+}
+
+.mole {
+  background-image: url('./mole.png');
+  background-size: cover;
+}
